@@ -1,0 +1,18 @@
+// console.log("Hello World");
+
+// document.getElementById("para").innerHTML = "Sanskriti Jain";
+// document.getElementsByTagName("p").innerHTML = "Sanskriti Jain";
+
+// getElementsByTagName
+// getElementsByClassName
+// getElementsByName
+
+
+// document.getElementsByTagName("p")[0].innerHTML = "Sanskriti Jain";
+
+
+// document.querySelector("#id").innerHTML = "Rohit";
+let i=document.querySelector("p").innerHTML;
+document.querySelector("h1").innerHTML=i;
+document.querySelector("p").innerHTML="";
+

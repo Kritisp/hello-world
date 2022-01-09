@@ -1,0 +1,44 @@
+// function addition(a=1,b=1,c=1)
+// {
+// 	return("Sum="+(a+b+c));
+// }
+
+// let i=addition(1,2,5);
+// document.write(i);
+
+//Anonymous / No Name function / IIFE(Immidiately Invoked Function Expression)
+
+// document.querySelector("button").onclick = function()
+// {
+// 	alert("Sanskriti Jain");
+// }
+
+
+// document.querySelector("button").onclick = () => {
+// 	alert("Sanskriti Jain");
+// }
+
+
+
+
+// document.querySelector("button").onclick = fun;
+
+
+
+
+
+document.querySelector("button").onclick=()=>
+{
+	if(document.querySelector("input").value.length == 0){
+		alert("Enter Something first");
+		document.querySelector("input").focus();
+	}
+	else{
+		let i=document.querySelector("input").value;
+		document.querySelector("p").innerHTML=i;
+	}
+}
+
+// ASSIGNMENT
+// onchange, onmouseover, onkeyup, onload
+
